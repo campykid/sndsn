@@ -106,8 +106,27 @@ q:before, q:after {
 		font-family: "Lobster";
 		font-weight: normal;
 	}
-	/********************** hr under about us **********************/
+	/********************** nav + header **********************/
 
+.nav-bar {
+	left: -285px;
+	position: fixed;
+	height: 74%;
+	padding: 50px;
+	width: 260px;
+}
+.nav-bar li {
+	padding: 10px;
+}
+.nav-bar li:nth-child(1) {
+	list-style: none;
+	cursor: pointer;
+
+
+}
+.nav-bar a {
+	text-decoration: none;
+}
 
 	.header{
 		background: #e9e9e9;
