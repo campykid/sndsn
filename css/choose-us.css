@@ -1,25 +1,24 @@
-/*********************** block why-choose-us ***********************/
-			.why-choose-us {
-				padding-top: 95px;
-			}
+.why-choose-us {
+	padding-top: 95px;
+}
 
-			.why-choose-us img {
-				
-				float: left;
-				width: 18%;
-				margin-left: -20px;
-				
-			}
+.why-choose-us img {
+	
+	float: left;
+	width: 18%;
+	margin-left: -20px;
+	
+}
 
-			.why-choose-us p, .why-choose-us h5 {
-				margin-left: 20%;
+.why-choose-us p, .why-choose-us h5 {
+	margin-left: 20%;
 
-			}
-			.why-choose-us i {
-				padding-bottom: 25px;
-				display: inline-block;
-			}
-			.why-choose-us p:nth-child(2n)  {
-				padding-bottom: 80px;
-			}
+}
+.why-choose-us i {
+	padding-bottom: 25px;
+	display: inline-block;
+}
+.why-choose-us p:nth-child(2n)  {
+	padding-bottom: 80px;
+}
 
