@@ -17,100 +17,100 @@
 
 
 /*********************** brands ***********************/
-										.brand {
-											padding-top: 7.5%;		
-										}
-										.brand .row div {
-											padding: 40px;
-											border: 1px solid #e1e1e1;
-											height: 133px;
-										}
-										.brand {
-											width: 99%;
-										}
+.brand {
+	padding-top: 7.5%;		
+}
+.brand .row div {
+	padding: 40px;
+	border: 1px solid #e1e1e1;
+	height: 133px;
+}
+.brand {
+	width: 99%;
+}
 /*********************** carusel ***********************/
-												.carusel {
-													padding-top: 20%;
-													padding-bottom: 16%;
-													background: #e9e9e9;
-													background-image: url(img/lines.png);
-													background-repeat: no-repeat;
-													background-position: 90% 60%;
-													background-size: 55%;
-													position: relative;
-												}
-												body > div.carusel > div > div > div > h6,
-												body > div.carusel > div > div > div > p:nth-child(3) {
-													text-align: right;
+.carusel {
+padding-top: 20%;
+padding-bottom: 16%;
+background: #e9e9e9;
+background-image: url(img/lines.png);
+background-repeat: no-repeat;
+background-position: 90% 60%;
+background-size: 55%;
+position: relative;
+}
+body > div.carusel > div > div > div > h6,
+body > div.carusel > div > div > div > p:nth-child(3) {
+text-align: right;
 
-												}
-												body > div.carusel > div > div > div > h6 {
-													padding-top: 35px;
-												}
-												body > div.carusel > div > div > div > p:nth-child(3) {
-													padding-top: 15px;
-												}
-												.carusel ul li {
-													margin-left: 20px;
-													list-style: none;
-													background: url(img/dot.png) no-repeat;
-													width: 10px;
-													height: 10px;
-													float: left;
-												}
+}
+body > div.carusel > div > div > div > h6 {
+padding-top: 35px;
+}
+body > div.carusel > div > div > div > p:nth-child(3) {
+padding-top: 15px;
+}
+.carusel ul li {
+margin-left: 20px;
+list-style: none;
+background: url(img/dot.png) no-repeat;
+width: 10px;
+height: 10px;
+float: left;
+}
 
-												.indicators {
-													text-align: center;
-													position: absolute;
-													bottom: 50px;
-													left: 0;
-													right: 0;
-												}
-												.indicators .active-slide {
-													background: url(img/dot-fat.png) no-repeat;
-													width: 10px;
-													height: 10px;
-												}
-												.quotes p:nth-child(1):before {
-													content: '';
-													position: absolute;
-													height: 50px;
-													width: 50px;
-													background: url(img/quotes.png) no-repeat;
-													margin-left: -50px;
-													
-												}
+.indicators {
+text-align: center;
+position: absolute;
+bottom: 50px;
+left: 0;
+right: 0;
+}
+.indicators .active-slide {
+background: url(img/dot-fat.png) no-repeat;
+width: 10px;
+height: 10px;
+}
+.quotes p:nth-child(1):before {
+content: '';
+position: absolute;
+height: 50px;
+width: 50px;
+background: url(img/quotes.png) no-repeat;
+margin-left: -50px;
+
+}
 
 /*********************** our news ***********************/
-													.more
-													, .news-slogan {
-														text-align: center;
-													}
-													.our-news {
-														padding-top: 8%;
-													}
-													.date {
-														padding-bottom: 40px;
-													}
-													.date:before {
-														content: '';
-														position: absolute;
-														width: 32px;
-														height: 1px;
-														background: #d1d1d1;
-														margin-top: 35px;
+.more
+, .news-slogan {
+	text-align: center;
+}
+.our-news {
+	padding-top: 8%;
+}
+.date {
+	padding-bottom: 40px;
+}
+.date:before {
+	content: '';
+	position: absolute;
+	width: 32px;
+	height: 1px;
+	background: #d1d1d1;
+	margin-top: 35px;
 
-														}													}
-													.hash-tag {
-														padding-top: 3%;
-													}
-													.second-news {
-														padding-top: 50px;
-														padding-bottom: 50px;
-													}
-													.more {
-														padding-bottom: 95px
-													}
+	}													}
+.hash-tag {
+	padding-top: 3%;
+}
+.second-news {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.more {
+	padding-bottom: 95px
+}
 /************************** feedback *****************************/
  .feedback {
 	background: #f9f9f9;
