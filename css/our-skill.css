@@ -1,43 +1,43 @@
 /*********************** our skill ***********************/
-								.our-skills li {
-								background: #292929;
-								color: #ffffff;
-								margin-bottom: 20px;
-								padding: 5px;
-								padding-left: 20px;
+.our-skills li {
+background: #292929;
+color: #ffffff;
+margin-bottom: 20px;
+padding: 5px;
+padding-left: 20px;
 
 
-								}
-								.our-skills ul {
-									-webkit-transform: rotate(-90deg);
-									-ms-transform: rotate(-90deg);
-									-o-transform: rotate(-90deg);
-									transform: rotate(-90deg);
-								}
-								.our-skill-content {
-									padding-top: 8%;
-								}
+}
+.our-skills ul {
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+.our-skill-content {
+	padding-top: 8%;
+}
 
 
-								body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(2) {
-									width: 80%;
-								}
-								body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(3) {
-									width: 70%;
-								}
-								body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(4) {
-									width: 90%;
-								}
-								body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(6) {
-									width: 85%;
-								}
-								body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(8) {
-									width: 72%;
-								}
-								body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(9) {
-									width: 63%;
-								}
-								.our-skills h5, .our-skills p  {
+body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(2) {
+	width: 80%;
+}
+body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(3) {
+	width: 70%;
+}
+body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(4) {
+	width: 90%;
+}
+body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(6) {
+	width: 85%;
+}
+body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(8) {
+	width: 72%;
+}
+body > div.our-skills > div > div:nth-child(2) > div:nth-child(2) > ul > li:nth-child(9) {
+	width: 63%;
+}
+.our-skills h5, .our-skills p  {
 
-								padding-bottom: 7%;
-								}
+padding-bottom: 7%;
+}
