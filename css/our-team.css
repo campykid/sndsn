@@ -1,25 +1,25 @@
 /*********************** our team ***********************/
-					.our-team {
-						padding-top: 8%;
-						text-align: center;
-					}
-					.our-slogan {
-						padding-bottom: 9%;
-					}
-					.prof-cart p {
-						text-align: center;
-						padding-top: 5%;
-						padding-bottom: 8%
-					}
-					.our-team h5 {
-						padding-top: 8%;
-						text-align: center;
-					}
+.our-team {
+	padding-top: 8%;
+	text-align: center;
+}
+.our-slogan {
+	padding-bottom: 9%;
+}
+.prof-cart p {
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 8%
+}
+.our-team h5 {
+	padding-top: 8%;
+	text-align: center;
+}
 
-					.video img {
-						height: 100%;
-						width: 100%;
-						padding-top: 6%;
-						padding-bottom: 6%;
+.video img {
+	height: 100%;
+	width: 100%;
+	padding-top: 6%;
+	padding-bottom: 6%;
 
-					}
+}
