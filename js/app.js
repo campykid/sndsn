@@ -29,18 +29,16 @@
 			var animate = function(bool) {
 				
 				 if (bool == false) {
-					 {
-						header.animate({
+					header.animate({
 						left : "285px"
 					}, 200);
 
 					navmenu.animate({
 					left : "0px"
 					}, 200)
-					};
+
 					open = true;
-				}
-				else {
+				} else {
 					header.animate({
 					left : "0px"
 					}, 200);
@@ -48,6 +46,7 @@
 					navmenu.animate({
 					left : "-285px"
 					}, 200)
+
 					open = false;
 				}
 			}
