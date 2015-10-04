@@ -112,20 +112,20 @@ address {
 }
 .mail {
 	background: red;
-	background: url(img/aircraft.png);
+	background: url(../img/aircraft.png);
 	background-repeat: no-repeat;
 	background-position: 50% 10%;
 	height: 100px;
 }
 
 .adrs {
-	background: url(img/lable.png);
+	background: url(../img/lable.png);
 	background-repeat: no-repeat;
 	background-position: 50% 10%;
 	height: 100px;
 }
 .tell {
-	background: url(img/tell.png);
+	background: url(../img/tell.png);
 	background-repeat: no-repeat;
 	background-position: 50% 10%;
 	height: 100px;
@@ -144,7 +144,7 @@ address {
 	color: white;
 	padding-top: 110px;
 	margin-bottom: 43px;
-	background: url(img/byciсle.png) no-repeat 50% 60%;
+	background: url(../img/byciсle.png) no-repeat 50% 60%;
 	background-size: 25%;
 	font-size: 24pt;
 	font-weight: bold;
@@ -172,26 +172,26 @@ address {
 
 }
 .footer li:nth-child(1) {
-background: url(img/social-sprite.png);
+background: url(../img/social-sprite.png);
 }
 .footer li:nth-child(2) {
-background: url(img/social-sprite.png);
+background: url(../img/social-sprite.png);
 background-position: 20%;
 }
 .footer li:nth-child(3) {
-background: url(img/social-sprite.png);
+background: url(../img/social-sprite.png);
 background-position: 40%;
 }
 .footer li:nth-child(4) {
-background: url(img/social-sprite.png);
+background: url(../img/social-sprite.png);
 background-position: 60%;
 }
 .footer li:nth-child(5) {
-background: url(img/social-sprite.png);
+background: url(../img/social-sprite.png);
 background-position: 80%;
 }
 .footer li:nth-child(6) {
-background: url(img/social-sprite.png);
+background: url(../img/social-sprite.png);
 background-position: 100%;
 }
 /*end main style*/
@@ -201,7 +201,7 @@ background-position: 100%;
 	background: #292929;
 	position: absolute;
 	height: 100%;
-	background-image: url(img/sandwich-menu.png);
+	background-image: url(../img/sandwich-menu.png);
 	background-repeat: no-repeat;
 	background-position: center 2%;
 	padding-top: 29%;
@@ -220,7 +220,7 @@ background-position: 100%;
 	width: 10%;
 	height: 18%;
 	content: ' ';
-	background: url(img/arrow-right.png);
+	background: url(../img/arrow-right.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	position: absolute;
@@ -269,7 +269,7 @@ background-position: 100%;
 	
 	font-size: 14pt;	
 	background: #292929;
-background-image: url(img/sandwich-menu.png);
+background-image: url(../img/sandwich-menu.png);
 	background-repeat: no-repeat;
 	background-position: 40px 45%;
 	color: white;

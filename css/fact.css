@@ -8,27 +8,27 @@ padding-bottom: 55px;
 text-align: left;
 }
 .designer {
-	background: url(img/designer.png) no-repeat ;
+	background: url(../img/designer.png) no-repeat ;
 	height: 100px;
 	padding-left: 100px;
 	padding-top: 30px;
 }
 .time {
-	background: url(img/clock.png) no-repeat ;
+	background: url(../img/clock.png) no-repeat ;
 	background-position: 0 15px;
 	height: 100px;
 	padding-left: 100px;
 	padding-top: 30px;
 }
 .project {
-	background: url(img/pen-min.png) no-repeat ;
+	background: url(../img/pen-min.png) no-repeat ;
 	background-position: 0 23px;
 	height: 100px;
 	padding-left: 100px;
 	padding-top: 30px;
 }
 .coffe {
-		background: url(img/cup.png) no-repeat ;
+		background: url(../img/cup.png) no-repeat ;
 	background-position: 0 15px;
 
 	height: 100px;

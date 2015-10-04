@@ -52,7 +52,7 @@ padding-top: 13%;
 	
 }
 body .logic-block-hr{
-	background-image: url(img/hr-line.png);
+	background-image: url(../img/hr-line.png);
 	height: 6px;
 	width: 30px;
 	border: none;
