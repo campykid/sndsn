@@ -1,4 +1,8 @@
-/*Здесь будут объеденены все файлы для сборки*/
+/*
+ * Здесь будут объеденены все файлы для сборки.
+ * GPL v 2.0 vladkhvo@gmail.com 2014 
+*/
+
 @import url(reset.css);
 @import url(about-us.css);
 @import url(nav+header.css);
@@ -9,42 +13,12 @@
 @import url(our-skill.css);
 @import url(brand.css);
 @import url(carusel.css);
-/* GPL v 2.0 vladkhvo@gmail.com 2014
+@import url(our-news.css);
 
 
 
 
 
-/*********************** our news ***********************/
-.more
-, .news-slogan {
-	text-align: center;
-}
-.our-news {
-	padding-top: 8%;
-}
-.date {
-	padding-bottom: 40px;
-}
-.date:before {
-	content: '';
-	position: absolute;
-	width: 32px;
-	height: 1px;
-	background: #d1d1d1;
-	margin-top: 35px;
-
-	}													}
-.hash-tag {
-	padding-top: 3%;
-}
-.second-news {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-.more {
-	padding-bottom: 95px
-}
 /************************** feedback *****************************/
  .feedback {
 	background: #f9f9f9;

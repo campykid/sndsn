@@ -1,0 +1,28 @@
+.more, 
+.news-slogan {
+	text-align: center;
+}
+.our-news {
+	padding-top: 8%;
+}
+.date {
+	padding-bottom: 40px;
+}
+.date:before {
+	content: '';
+	position: absolute;
+	width: 32px;
+	height: 1px;
+	background: #d1d1d1;
+	margin-top: 35px;
+}
+.hash-tag {
+	padding-top: 3%;
+}
+.second-news {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.more {
+	padding-bottom: 95px
+}
