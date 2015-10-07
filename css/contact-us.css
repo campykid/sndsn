@@ -2,7 +2,7 @@
 	text-align: center;
 }
 .contact-us h2 {
-padding-top: 95px;
+	padding-top: 95px;
 }
 .contact-us hr {
 	margin-bottom: 50px;
@@ -20,7 +20,6 @@ address {
 	vertical-align: bottom;
 	display: inline-block;
 	text-align: center;
-
 }
 .mail {
 	background: red;
