@@ -1,0 +1,47 @@
+.contact-us {
+	text-align: center;
+}
+.contact-us h2 {
+padding-top: 95px;
+}
+.contact-us hr {
+	margin-bottom: 50px;
+	margin-top: 45px;
+
+}
+.bye-text {
+	padding-bottom: 46px;
+}
+address {
+	margin-top: 55px;
+	font-family:  "Oswald";
+	font-weight: normal;
+	font-size: 14pt;
+	vertical-align: bottom;
+	display: inline-block;
+	text-align: center;
+
+}
+.mail {
+	background: red;
+	background: url(../img/aircraft.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+	height: 100px;
+}
+
+.adrs {
+	background: url(../img/lable.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+	height: 100px;
+}
+.tell {
+	background: url(../img/tell.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+	height: 100px;
+}
+.contact-info {
+	padding-bottom: 95px;
+}
