@@ -1,20 +1,4 @@
 @media (min-width: 1480px) {
-	.menu {
-		width: 4.5%;
-		background: #292929;
-		position: absolute;
-		height: 100%;
-		background-image: url(../img/sandwich-menu.png);
-		background-repeat: no-repeat;
-		background-position: center 2%;
-		padding-top: 29%;
-	}
-
-	.menu h3 {
-		color: white;	
-		transform: rotate(-90deg);
-		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Internet Explorer */
-	}
 	.about h6:after {
 		width: 10%;
 		height: 18%;
@@ -51,21 +35,7 @@
 }
 /*design menu*/
 @media (max-width: 1480px) {
-	.menu {
-		background: #f9f9f9;
-		font-style: normal;
-		font-family: "Oswald";
-		font-weight: lighter;
-		padding: 20px;
-		
-		font-size: 14pt;	
-		background: #292929;
-		background-image: url(../img/sandwich-menu.png);
-		background-repeat: no-repeat;
-		background-position: 40px 45%;
-		color: white;
-		text-align: center;
-	}
+
 	.why-choose-us img {
 		width: 15%;
 		margin-left: 0px;			
