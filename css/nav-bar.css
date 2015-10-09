@@ -1,0 +1,19 @@
+.nav-bar {
+	left: -285px;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	padding: 50px;
+	width: 260px;
+	height: 100%;
+}
+.nav-bar__item {
+	padding: 10px;
+}
+.nav-bar__remove-button {
+	list-style: none;
+	cursor: pointer;
+}
+.nav-bar__link {
+	text-decoration: none;
+}
