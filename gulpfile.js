@@ -3,7 +3,7 @@ var uglify = require('gulp-uglify');
 var minifyCss = require('gulp-minify-css');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
-
+var watch = require('gulp-watch');
 
 gulp.task('compress', function() {
   return gulp.src('js/app.js')
@@ -17,7 +17,7 @@ gulp.task('minify-css', function() {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('postCSS', function () { 
+gulp.task('postCSS', ['minify-css'], function () { 
   var processors = [
 	autoprefixer
   ];
@@ -28,3 +28,7 @@ gulp.task('postCSS', function () {
 
 
 gulp.task('default',['compress','minify-css','postCSS']);
+
+gulp.task('watch', function(){
+  gulp.watch('css/*.css', ['default']);
+});
