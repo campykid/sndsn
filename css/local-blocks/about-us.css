@@ -1,0 +1,35 @@
+.about-us {
+	text-align: center;
+	background: #f9f9f9;
+}
+.about-us__link-more {
+	padding-top: 47px;
+	padding-bottom: 55px;
+	display: inline-block;
+}
+.about-us__title_size_big {
+	padding-top: 26%;
+}
+.about-us__title_size_little {
+	padding-bottom: 6%;
+	padding-top: 30px;
+}
+.about-us__title_align_left {
+	text-align: left;
+}
+.about-us__keywords {
+	word-spacing: 12px;
+}
+.about-us__keywords_selected_yes {
+	color: gray;
+}
+.about-us__description_align_left {
+	text-align: left;
+}
+.about-us__separator{
+	border: 1px solid #eee;
+	width: 90%;
+}
+.about-us__image{
+	padding-top: 13%;
+}

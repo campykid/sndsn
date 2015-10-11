@@ -1,22 +1,27 @@
 /*
- * Здесь будут объеденены все файлы для сборки.
+ * Здесь деклариуются все файлы для сборки.
  * GPL v 2.0 vladkhvo@gmail.com 2014 
 */
 
-@import url(reset.css);
-@import url(about-us.css);
-@import url(nav-bar.css);
-@import url(header.css);
-@import url(choose-us.css);
-@import url(wip.css);
-@import url(fact.css);
-@import url(our-team.css);
-@import url(our-skill.css);
-@import url(brand.css);
-@import url(carusel.css);
-@import url(our-news.css);
-@import url(feedback.css);
-@import url(contact-us.css);
-@import url(footer.css);
-@import url(media-queries.css);
+/* Общие блоки */
+@import url(common-blocks/separator.css);
+
+/* Проектные блоки */
+@import url(local-blocks/reset.css);
+@import url(local-blocks/nav-bar.css);
+@import url(local-blocks/header.css);
+@import url(local-blocks/about-us.css);
+@import url(local-blocks/our-work.css);
+@import url(local-blocks/choose-us.css);
+@import url(local-blocks/wip.css);
+@import url(local-blocks/fact.css);
+@import url(local-blocks/our-team.css);
+@import url(local-blocks/our-skill.css);
+@import url(local-blocks/brand.css);
+@import url(local-blocks/carusel.css);
+@import url(local-blocks/our-news.css);
+@import url(local-blocks/feedback.css);
+@import url(local-blocks/contact-us.css);
+@import url(local-blocks/footer.css);
+@import url(local-blocks/media-queries.css);
 
