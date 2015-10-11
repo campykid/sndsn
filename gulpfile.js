@@ -27,7 +27,7 @@ gulp.task('postCSS', ['minify-css'], function () {
 });
 
 
-gulp.task('default',['compress','minify-css','postCSS']);
+gulp.task('default',['compress','postCSS']);
 
 gulp.task('watch', function(){
   gulp.watch('css/*.css', ['default']);
