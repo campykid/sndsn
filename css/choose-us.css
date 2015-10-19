@@ -1,24 +1,26 @@
-.why-choose-us {
+.choose-us {
 	padding-top: 95px;
 }
 
-.why-choose-us img {
+.choose-us__icon {
 	
 	float: left;
 	width: 18%;
 	margin-left: -20px;
+	margin-right: 10%;
 	
 }
 
-.why-choose-us p, .why-choose-us h5 {
-	margin-left: 20%;
-
+.choose-us__text,
+.choose-us__title {
+	width: 74%;
+	float: right;
 }
-.why-choose-us i {
+.choose-us__under-the-title {
 	padding-bottom: 25px;
 	display: inline-block;
 }
-.why-choose-us p:nth-child(2n)  {
+.choose-us__text_last-child  {
 	padding-bottom: 80px;
 }
 
