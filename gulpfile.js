@@ -4,6 +4,8 @@ var minifyCss = require('gulp-minify-css');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var watch = require('gulp-watch');
+var connect = require('gulp-connect');
+
 
 gulp.task('compress', function() {
   return gulp.src('js/app.js')
@@ -27,8 +29,21 @@ gulp.task('postCSS', ['minify-css'], function () {
 });
 
 
+gulp.task('watch', function(){
+ connect.server({
+    root: './',
+    livereload: true
+  });
+  gulp.watch(['./*', './css/*.css', './js/*.js'], ['default', 'liveReload' ])
+
+});
+
+gulp.task('liveReload', function(){
+  gulp.src('./*')
+   .pipe(connect.reload());
+})
+
+
+
 gulp.task('default',['compress','postCSS']);
 
-gulp.task('watch', function(){
-  gulp.watch('css/*.css', ['default']);
-});
