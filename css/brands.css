@@ -1,0 +1,9 @@
+.brands {
+	padding-top: 7.5%;
+	width: 99%;
+}
+.brands__item {
+	padding: 40px;
+	border: 1px solid #e1e1e1;
+	height: 133px;
+}
