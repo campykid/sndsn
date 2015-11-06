@@ -11,7 +11,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 860px) {
- 	.iphone {
+	.iphone {
 		padding-top: 0px;
 		margin-top: -160px;
 	}
@@ -38,7 +38,7 @@
 
 	.why-choose-us img {
 		width: 15%;
-		margin-left: 0px;			
+		margin-left: 0px;
 	}
 
 }
