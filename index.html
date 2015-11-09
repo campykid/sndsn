@@ -17,395 +17,395 @@
 		<link rel="stylesheet" type="text/css" href="dist/main.css">
 		<!--google fonts-->
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Lobster|Oswald:400,300,700' rel='stylesheet' type='text/css'>
-		<script src="/node_modules/angular/angular.js"></script>
+		<script src="node_modules/angular/angular.js"></script>
 	</head>
-<body ng-controller="TextController">
-	<div class="nav-bar" ng-controller="nav-bar">
-		<ul>
-			<li class="nav-bar__remove-button"><div class="glyphicon glyphicon-remove btn-lg"></div></li>
-			<li class="nav-bar__item"><a class='nav-bar__link' href="#about">ABOUT US</a></li>
-			<li class="nav-bar__item"><a class='nav-bar__link' href="#our-works">OUR WORKS</a></li>
-			<li class="nav-bar__item"><a class='nav-bar__link' href="#why-chose-us">WHY CHOOSE US</a></li>
-			<li class="nav-bar__item"><a class='nav-bar__link' href="#our-team">OUR TEAM</a></li>
-			<li class="nav-bar__item"><a class='nav-bar__link' href="#our-skills">OUR SKILLS</a></li>
-			<li class="nav-bar__item"><a class='nav-bar__link' href="#our-news">OUR NEWS</a></li>
-			<li class="nav-bar__item"><a class='nav-bar__link' href="#contact-us">CONTACT US</a></li>
-		</ul>
-	</div>
-	<div class="header">
-	<div class="header__nav-bar-panel" ng-controller="nav-bar" ng-click='toggleNavBar()'><h3 class="header__nav-bar-title">SNDSGN</h3></div>
-	<div class="container">
-		<div class="header__content">
-			<h1>{{ mainPageTitleFirsLine }}</h1>
-			<h1><strong>brand</strong> new day!</h1>
-			<small class='header__description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-			<br>
-			Aenean commodo ligula eget dolor. Aenean massa.</small>
-			<br>
-		<a class='header__link-more' href="#">more</a>
-		</div><!--content-->
-	</div><!--container-->
-	</div><!--header-->
-		<div class="about-us">
+	<body ng-controller="TextController">
+		<div class="nav-bar" ng-controller="nav-bar">
+			<ul>
+				<li class="nav-bar__remove-button"><div class="glyphicon glyphicon-remove btn-lg"></div></li>
+				<li class="nav-bar__item"><a class='nav-bar__link' href="#about">ABOUT US</a></li>
+				<li class="nav-bar__item"><a class='nav-bar__link' href="#our-works">OUR WORKS</a></li>
+				<li class="nav-bar__item"><a class='nav-bar__link' href="#why-chose-us">WHY CHOOSE US</a></li>
+				<li class="nav-bar__item"><a class='nav-bar__link' href="#our-team">OUR TEAM</a></li>
+				<li class="nav-bar__item"><a class='nav-bar__link' href="#our-skills">OUR SKILLS</a></li>
+				<li class="nav-bar__item"><a class='nav-bar__link' href="#our-news">OUR NEWS</a></li>
+				<li class="nav-bar__item"><a class='nav-bar__link' href="#contact-us">CONTACT US</a></li>
+			</ul>
+		</div>
+		<div class="header">
+		<div class="header__nav-bar-panel" ng-controller="nav-bar" ng-click='toggleNavBar()'><h3 class="header__nav-bar-title">SNDSGN</h3></div>
+		<div class="container">
+			<div class="header__content">
+				<h1>{{ mainPageTitleFirsLine }}</h1>
+				<h1><strong>brand</strong> new day!</h1>
+				<small class='header__description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+				<br>
+				Aenean commodo ligula eget dolor. Aenean massa.</small>
+				<br>
+			<a class='header__link-more' href="#">more</a>
+			</div><!--content-->
+		</div><!--container-->
+		</div><!--header-->
+			<div class="about-us">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 col-md-offset-4" id="about"><h2 class="about-us__title_size_big">About us</h2><hr class="separatopr"></div>
+						</div>
+							<div class="row about">
+								<div class="col-md-4">
+									<h6 class="about-us__title_size_little about-us__title_align_left">Website Design & Development  </h6>
+										<p class="about-us__description_align_left ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+							<div class="col-md-4">
+							<h6 class="about-us__title_size_little about-us__title_align_left">Graphic Design & Advertising</h6>
+										<p class="about-us__description_align_left ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+							</div>
+								<div class="col-md-4">
+								<h6 class="about-us__title_size_little about-us__title_align_left">Advertising & Marketing Strategy</h6>
+								<p class="about-us__description_align_left ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+								</div>
+							</div>
+						</div><!--about us-->
+				<div class="our-work">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 col-md-offset-4" id="about"><h2 class="about-us__title_size_big">About us</h2><hr class="separatopr"></div>
-					</div>
-						<div class="row about">
+							<div class="col-md-4 col-md-offset-4" id="our-works"><h2 class="about-us__title_size_big our-work__title">Our works</h2></div>
+					</div><!--row-->
+					<div class="row">
+							<div class="col-md-9 col-md-offset-2"><h4><span class="selected about-us__keywords">All    / </span>   Architecture   <span class="about-us__keywords_selected_yes about-us__keywords"> / </span>   Interior & Furniture DesigN   <span class="about-us__keywords_selected_yes about-us__keywords"> / </span>   Research & Graphic Design</h4></div>
+					</div><!--row-->
+					<div class="row">
+								<div class="col-md-4">
+									<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
+									<h6 class="about-us__title_size_little">Sample </h6>
+										<p><i>Design, Bottle</i></p>
+										<hr class="about-us__separator">
+								</div>
 							<div class="col-md-4">
-								<h6 class="about-us__title_size_little about-us__title_align_left">Website Design & Development  </h6>
-									<p class="about-us__description_align_left ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
+								<h6 class="about-us__title_size_little">On the road</h6>
+											<p><i>Branding, Design, Logotype</i> </p>
+											<hr class="about-us__separator">
 							</div>
-						<div class="col-md-4">
-						<h6 class="about-us__title_size_little about-us__title_align_left">Graphic Design & Advertising</h6>
-									<p class="about-us__description_align_left ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-						</div>
 							<div class="col-md-4">
-							<h6 class="about-us__title_size_little about-us__title_align_left">Advertising & Marketing Strategy</h6>
-							 <p class="about-us__description_align_left ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-							 </div>
+							<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
+							<h6 class="about-us__title_size_little">Terminal</h6>
+							<p><i>Design, Logotype, Terminal</i> </p>
+							<hr class="about-us__separator">
+							</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
+									<h6 class="about-us__title_size_little">Sample </h6>
+										<p><i>Design, Bottle</i></p>
+										<hr class="about-us__separator">
+								</div>
+							<div class="col-md-4">
+								<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
+								<h6 class="about-us__title_size_little">Noticle</h6>
+											<p><i>Branding, Design, Logotype</i> </p>
+											<hr class="about-us__separator">
+							</div>
+							<div class="col-md-4">
+							<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
+							<h6 class="about-us__title_size_little">Voyageur du temps</h6>
+							<p><i>Design, Logotype, Terminal</i> </p>
+							<hr class="about-us__separator">
+							</div>
+							</div>
+							<a class="about-us__link-more" href="#">more</a>
 						</div>
-					</div><!--about us-->
-			<div class="our-work">
+		</div>
+			</div><!--our work-->
+			<div class="choose-us">
 			<div class="container">
 				<div class="row">
-						<div class="col-md-4 col-md-offset-4" id="our-works"><h2 class="about-us__title_size_big our-work__title">Our works</h2></div>
-				</div><!--row-->
-				<div class="row">
-						<div class="col-md-9 col-md-offset-2"><h4><span class="selected about-us__keywords">All    / </span>   Architecture   <span class="about-us__keywords_selected_yes about-us__keywords"> / </span>   Interior & Furniture DesigN   <span class="about-us__keywords_selected_yes about-us__keywords"> / </span>   Research & Graphic Design</h4></div>
-				</div><!--row-->
-				<div class="row">
-							<div class="col-md-4">
-								<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
-								<h6 class="about-us__title_size_little">Sample </h6>
-									<p><i>Design, Bottle</i></p>
-									<hr class="about-us__separator">
-							</div>
-						<div class="col-md-4">
-							<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
-							<h6 class="about-us__title_size_little">On the road</h6>
-										<p><i>Branding, Design, Logotype</i> </p>
-										<hr class="about-us__separator">
-						</div>
-						<div class="col-md-4">
-						<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
-						<h6 class="about-us__title_size_little">Terminal</h6>
-						 <p><i>Design, Logotype, Terminal</i> </p>
-						 <hr class="about-us__separator">
-						 </div>
-						</div>
-						<div class="row">
-							<div class="col-md-4">
-								<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
-								<h6 class="about-us__title_size_little">Sample </h6>
-									<p><i>Design, Bottle</i></p>
-									<hr class="class="about-us__separator"">
-							</div>
-						<div class="col-md-4">
-							<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
-							<h6 class="about-us__title_size_little">Noticle</h6>
-										<p><i>Branding, Design, Logotype</i> </p>
-										<hr class="about-us__separator">
-						</div>
-						<div class="col-md-4">
-						<img class="about-us__image" src="img/our-work-img.png" alt="our-work-img">
-						<h6 class="about-us__title_size_little">Voyageur du temps</h6>
-						 <p><i>Design, Logotype, Terminal</i> </p>
-						 <hr class="about-us__separator">
-						 </div>
-						</div>
-						<a class="about-us__link-more" href="#">more</a>
-					</div>
-	</div>
-		</div><!--our work-->
-		<div class="choose-us">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4" ><h2>why choose us</h2><hr class="separatopr"></div>
-			</div>
-			
-			<div class="row">
-					<div class="col-md-9 col-md-offset-2"><img src="img/pen.png" alt="pen" class="choose-us__icon">
-						<h5 class="choose-us__title">BEAUTIFUL & ENJOYABLE DESIGNS</h5>
-						<p>
-							<i class='choose-us__under-the-title'>We define the trends. Enough Said!</i>
-						</p>
-						<p class="choose-us__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-						</p>
-					</div>
+					<div class="col-md-4 col-md-offset-4" ><h2>why choose us</h2><hr class="separatopr"></div>
 				</div>
 				<div class="row">
-					<div class="col-md-9 col-md-offset-2"><img src="img/cogwheel.png" alt="cogwheel" class="choose-us__icon">
-						<h5 class="choose-us__title">PERFECT LAYOUT & EFFICIENT CODING</h5>
-						<p>
-							<i class='choose-us__under-the-title'>We produce top class code</i>
-						</p>
-						<p class="choose-us__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-						</p>
+						<div class="col-md-9 col-md-offset-2"><img src="img/pen.png" alt="pen" class="choose-us__icon">
+							<h5 class="choose-us__title">BEAUTIFUL & ENJOYABLE DESIGNS</h5>
+							<p>
+								<i class='choose-us__under-the-title'>We define the trends. Enough Said!</i>
+							</p>
+							<p class="choose-us__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+							</p>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-9 col-md-offset-2"><img src="img/bag.png" alt="bag" class="choose-us__icon">
+					<div class="row">
+						<div class="col-md-9 col-md-offset-2"><img src="img/cogwheel.png" alt="cogwheel" class="choose-us__icon">
+							<h5 class="choose-us__title">PERFECT LAYOUT & EFFICIENT CODING</h5>
+							<p>
+								<i class='choose-us__under-the-title'>We produce top class code</i>
+							</p>
+							<p class="choose-us__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-9 col-md-offset-2"><img src="img/bag.png" alt="bag" class="choose-us__icon">
+							<h5 class="choose-us__title">DEDICATED SUPPORT & UPDATES</h5>
+							<p>
+								<i class='choose-us__under-the-title'>Team of experts to assist you</i>
+							</p>
+							<p class="choose-us__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+							</p>
+						</div>
+						</div>
+					<div class="row">
+					<div class="col-md-9 col-md-offset-2"><img src="img/star.png" alt="bag" class="choose-us__icon">
 						<h5 class="choose-us__title">DEDICATED SUPPORT & UPDATES</h5>
 						<p>
 							<i class='choose-us__under-the-title'>Team of experts to assist you</i>
 						</p>
-						<p class="choose-us__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+						<p class="choose-us__text choose-us__text_last-child">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 						</p>
 					</div>
+				</div>
+			</div>  
+			</div><!--who chose us-->
+		<div class="wip">
+			<div class="container">
+					<div class="row">
+						<div class="wip__description col-md-6 col-md-offset-1 ">
+						<h1 class="wip__text wip__title">voyageur du temps</h1>
+						<p class="wip__text wip__paragraph">Our last responsive work in process. Just use the link below 
+				to watch what we are doing right now. Hope you like it!</p>
+						<a class="wip__text" href="">more</a></div>
+						<div class="wip__iphone col-md-3 col-xs-4 col-xs-6 col-xs-offset-4 col-sm-offset-4 col-md-offset-2 "><img src="img/iphone.png" alt="iphone"></div>
 					</div>
-				<div class="row">
-				<div class="col-md-9 col-md-offset-2"><img src="img/star.png" alt="bag" class="choose-us__icon">
-					<h5 class="choose-us__title">DEDICATED SUPPORT & UPDATES</h5>
-					<p>
-						<i class='choose-us__under-the-title'>Team of experts to assist you</i>
-					</p>
-					<p class="choose-us__text choose-us__text_last-child">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-					</p>
-				</div>
 			</div>
-		</div>  
-		</div><!--who chose us-->
-	<div class="wip">
-		<div class="container">
+		</div><!--wip-->
+		<div class="fact">
+			<div class="container">
 				<div class="row">
-					<div class="wip__description col-md-6 col-md-offset-1 ">
-					<h1 class="wip__text wip__title">voyageur du temps</h1>
-					<p class="wip__text wip__paragraph">Our last responsive work in process. Just use the link below 
-			to watch what we are doing right now. Hope you like it!</p>
-					<a class="wip__text" href="">more</a></div>
-					<div class="wip__iphone col-md-3 col-xs-4 col-xs-6 col-xs-offset-4 col-sm-offset-4 col-md-offset-2 "><img src="img/iphone.png" alt="iphone"></div>
-				</div>
-		</div>
-	</div><!--wip-->
-	<div class="fact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 designer">
-					<h5>11</h5>
-					<h6>Designers</h6>
-				</div>
-				<div class="col-md-3 time">
-					<h5>6542</h5>
-					<h6>Hours worked</h6>
-				</div>
-				<div class="col-md-3 project">
-					<h5>254</h5>
-					<h6>Project finished</h6>
-				</div>
+					<div class="col-md-3 designer">
+						<h5>11</h5>
+						<h6>Designers</h6>
+					</div>
+					<div class="col-md-3 time">
+						<h5>6542</h5>
+						<h6>Hours worked</h6>
+					</div>
+					<div class="col-md-3 project">
+						<h5>254</h5>
+						<h6>Project finished</h6>
+					</div>
 
-				<div class="col-md-3 coffe">
-					<h5>435</h5>
-					<h6>Drunk Coffe</h6>
+					<div class="col-md-3 coffe">
+						<h5>435</h5>
+						<h6>Drunk Coffe</h6>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="our-team">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4" id="our-team"><h2>Our team</h2><hr class="separatopr"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 our-slogan">
-						<p><i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-										Aenean commodo ligula eget dolor. Aenean massa. 
-							 </i>
-						</p>
+		<div class="our-team">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4" id="our-team"><h2>Our team</h2><hr class="separatopr"></div>
 				</div>
-			</div>
-			<div class="row prof-cart">
-				<div class="col-md-3">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 our-slogan">
+							<p><i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+											Aenean commodo ligula eget dolor. Aenean massa. 
+								</i>
+							</p>
+					</div>
+				</div>
+				<div class="row prof-cart">
+					<div class="col-md-3">
+							<img src="img/our-work-img.png" alt="our-work-img">
+								<h5>John Doe</h5>
+								<p><i>Senior Designer</i> </p><hr>
+					</div>
+					<div class="col-md-3">
 						<img src="img/our-work-img.png" alt="our-work-img">
-							<h5>John Doe</h5>
-							<p><i>Senior Designer</i> </p><hr>
-				</div>
-				<div class="col-md-3">
-					<img src="img/our-work-img.png" alt="our-work-img">
-							 <h5>John Doe</h5>
-							<p><i>Senior Designer</i> </p><hr>
-				</div>
-				<div class="col-md-3">
-					<img src="img/our-work-img.png" alt="our-work-img">
-							 <h5>John Doe</h5>
-							<p><i>Senior Designer</i> </p><hr>
-				</div>
-				<div class="col-md-3">
-					<img src="img/our-work-img.png" alt="our-work-img">
-							 <h5>John Doe</h5>
-							<p><i>Senior Designer</i> </p><hr>
-				</div>
-			</div>
-		</div>
-	</div><!--our team-->
-
-	<div class="video">
-	<img src="img/video.png" alt="">
-	</div><!--video-->
-	<div class="our-skills">
-		<div class="container">
-			<div class="row"><div class="col-md-3 col-md-offset-5" id="our-skills"><h2>Our skills</h2><hr class="separatopr"></div>
-			</div>
-					 <div class="row our-skill-content">
-						<div class="col-md-5 col-md-offset-1">
-							<h5>PERFECT LAYOUT & EFFICIENT CODING</h5>
-							<p><i>We produce top class code</i> </p>
-							<p>Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. I started designing long ago with the basic pencil and paper drawings, sketching, painting and product design. Now I work with such software as Adobe Photoshop and Adobe Illustrator. Also I work with the Content Management Systems such as: Wordpress and Magento.</p>
-						</div>
-						<div class="col-md-5 col-md-offset-1 skill-list">
-							<ul>
-								<li><i>Adobe Photoshop</i></li>
-								<li><i>Adobe illustrator</i></li>
-								<li><i>HTML 5</i></li>
-								<li><i>CSS</i></li>
-								<li><i>JavaScript</i></li>
-								<li><i>Python</i></li>
-								<li><i>Responsive Design</i></li>
-								<li><i>Adobe illustrator</i></li>
-								<li><i>HTML 5</i></li>
-							</ul>
-						</div>
+								<h5>John Doe</h5>
+								<p><i>Senior Designer</i> </p><hr>
 					</div>
-		</div><!--container-->
-	</div><!--our-skills-->
-
-	<div class="brand">
-		<div class="row">
-				<div class="col-md-2 brands__item"><img src="img/brand1.png" alt="brand"></div>
-				<div class="col-md-2 brands__item"><img src="img/brand2.png" alt="brand"></div>
-				<div class="col-md-2 brands__item"><img src="img/brand3.png" alt="brand"></div>
-				<div class="col-md-2 brands__item"><img src="img/brand4.png" alt="brand"></div>
-				<div class="col-md-2 brands__item"><img src="img/brand5.png" alt="brand"></div>
-				<div class="col-md-2 brands__item"><img src="img/brand6.png" alt="brand"></div>
-	</div>
-	</div>
-	<div class="carusel">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 col-md-offset-5 quotes">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<h6>Joanna Doe</h6>
-						<p><i>Senior Designer Manager</i></p>
-				</div>
-				<div class="col-md-2 col-md-offset-5 indicators">
-					<ul>
-						<li class="active-slide"></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div><!--carusel-->
-	<div class="our-news">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4" id="our-news"><h2>Our news</h2><hr class="separatopr"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 our-slogan">
-				 <p class="news-slogan"><i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  </i></p>
-			</div>
-			<div class="row">
-				<div class="col-md-5 col-md-offset-1">
-					<img src="img/news-img.png" alt="news">
-				</div>
-				<div class="col-md-5">
-					<h5>PERFECT LAYOUT</h5>
-					<p class="date"><i>11 augusts 2014 </i></p> 
-					<p>Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. I started designing long ago with the basic pencil and paper drawings, sketching, painting and product design. Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. </p>
-					<p class="hash-tag"><i>#UX  #UI  #webdesign  #responsible  #website</i></p>
-				</div>
-			</div>
-			<div class="row second-news">
-				<div class="col-md-5 col-md-offset-1">
-					<img src="img/news-img.png" alt="news">
-				</div>
-				<div class="col-md-5">
-					<h5>PERFECT LAYOUT</h5>
-					<p class="date"><i>11 augusts 2014</i></p>
-					<p>Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. I started designing long ago with the basic pencil and paper drawings, sketching, painting and product design. Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. </p>
-					<p class="hash-tag"><i>#UX  #UI  #webdesign  #responsible  #website</i></p>
-				</div>
-
-			</div>
-			<div class="more"><a href="#">more</a></div>
-		</div>
-	</div><!--our-news-->
-	<div class="feedback">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4"><h2>Thank you!</h2></div>
-			</div>
-			<div class="row">
-				<form role="form">
-					<div class="form-group col-md-4 col-md-offset-4">
-					<input type="text" class="form-control" placeholder="name">
-						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="e-mail">
-						<input type="text" class="form-control" placeholder="message">
-					<div class="send"><a type="submit" href="#">send</a></div>
+					<div class="col-md-3">
+						<img src="img/our-work-img.png" alt="our-work-img">
+								<h5>John Doe</h5>
+								<p><i>Senior Designer</i> </p><hr>
 					</div>
-				</form>
-			</div>
-		</div>
-	</div><!--feedback-->
-	<div class="contact-us">
-		<div class="container">
-			<div class="row" id="contact-us"><h2>Contact us</h2><hr class="separatopr"></div>
-			<div class="row bye-text">
-				<div class="col-md-8 col-md-offset-2">
-					<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias culpa hic illo, at quod soluta nemo veritatis maiores! Quia delectus rerum eos facere commodi est dolores ab, perspiciatis accusantium.</i></p>
+					<div class="col-md-3">
+						<img src="img/our-work-img.png" alt="our-work-img">
+								<h5>John Doe</h5>
+								<p><i>Senior Designer</i> </p><hr>
+					</div>
 				</div>
 			</div>
-			<div class="row contact-info">
-				<div class="col-md-4 mail"><address>hi@sndsgn.ca</address></div>
-					<div class="col-md-4 adrs"><address>Ukraine, Kiev, Khreshatik str.</address></div>
-					<div class="col-md-4 tell"><address>+38 066 475 30 22</address></div>
-			</div>
-		</div>
-	</div><!--contact us -->
-	<div class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-2 col-md-offset-5">
-					<h3>SNDSGN</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4 link">
-					<ul>
-						<li> <a href=""></a> </li>
-						<li><a href=""></a> </li>
-						<li><a href=""></a> </li>
-						<li><a href=""></a> </li>
-						<li><a href=""></a> </li>
-						<li><a href=""></a> </li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4">
-					<p><i>© SNDSGN Wordpress Theme</i></p>
-				</div>
-			</div>
-		</div>
-	</div><!--footer-->
-			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<script src="js/bootstrap.min.js"></script>
+		</div><!--our team-->
 
-					<!-- Modules -->
-			<script src="js/app.js"></script>
+		<div class="video">
+		<img src="img/video.png" alt="">
+		</div><!--video-->
+		<div class="our-skills">
+			<div class="container">
+				<div class="row"><div class="col-md-3 col-md-offset-5" id="our-skills"><h2>Our skills</h2><hr class="separatopr"></div>
+				</div>
+						<div class="row our-skill-content">
+							<div class="col-md-5 col-md-offset-1">
+								<h5>PERFECT LAYOUT & EFFICIENT CODING</h5>
+								<p><i>We produce top class code</i> </p>
+								<p>Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. I started designing long ago with the basic pencil and paper drawings, sketching, painting and product design. Now I work with such software as Adobe Photoshop and Adobe Illustrator. Also I work with the Content Management Systems such as: Wordpress and Magento.</p>
+							</div>
+							<div class="col-md-5 col-md-offset-1 skill-list">
+								<ul>
+									<li><i>Adobe Photoshop</i></li>
+									<li><i>Adobe illustrator</i></li>
+									<li><i>HTML 5</i></li>
+									<li><i>CSS</i></li>
+									<li><i>JavaScript</i></li>
+									<li><i>Python</i></li>
+									<li><i>Responsive Design</i></li>
+									<li><i>Adobe illustrator</i></li>
+									<li><i>HTML 5</i></li>
+								</ul>
+							</div>
+						</div>
+			</div><!--container-->
+		</div><!--our-skills-->
 
-			<!-- Controllers -->
-			<script src="js/controllers/TextController.js"></script>
-			<script src="js/controllers/nav-bar.js"></script>
+		<div class="brand">
+			<div class="row">
+					<div class="col-md-2 brands__item"><img src="img/brand1.png" alt="brand"></div>
+					<div class="col-md-2 brands__item"><img src="img/brand2.png" alt="brand"></div>
+					<div class="col-md-2 brands__item"><img src="img/brand3.png" alt="brand"></div>
+					<div class="col-md-2 brands__item"><img src="img/brand4.png" alt="brand"></div>
+					<div class="col-md-2 brands__item"><img src="img/brand5.png" alt="brand"></div>
+					<div class="col-md-2 brands__item"><img src="img/brand6.png" alt="brand"></div>
+		</div>
+		</div>
+		<div class="carusel">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-md-offset-5 quotes">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<h6>Joanna Doe</h6>
+							<p><i>Senior Designer Manager</i></p>
+					</div>
+					<div class="col-md-2 col-md-offset-5 indicators">
+						<ul>
+							<li class="active-slide"></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!--carusel-->
+		<div class="our-news">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4" id="our-news"><h2>Our news</h2><hr class="separatopr"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 our-slogan">
+					<p class="news-slogan"><i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+					Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  </i></p>
+				</div>
+				<div class="row">
+					<div class="col-md-5 col-md-offset-1">
+						<img src="img/news-img.png" alt="news">
+					</div>
+					<div class="col-md-5">
+						<h5>PERFECT LAYOUT</h5>
+						<p class="date"><i>11 augusts 2014 </i></p> 
+						<p>Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. I started designing long ago with the basic pencil and paper drawings, sketching, painting and product design. Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. </p>
+						<p class="hash-tag"><i>#UX  #UI  #webdesign  #responsible  #website</i></p>
+					</div>
+				</div>
+				<div class="row second-news">
+					<div class="col-md-5 col-md-offset-1">
+						<img src="img/news-img.png" alt="news">
+					</div>
+					<div class="col-md-5">
+						<h5>PERFECT LAYOUT</h5>
+						<p class="date"><i>11 augusts 2014</i></p>
+						<p>Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. I started designing long ago with the basic pencil and paper drawings, sketching, painting and product design. Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. </p>
+						<p class="hash-tag"><i>#UX  #UI  #webdesign  #responsible  #website</i></p>
+					</div>
+
+				</div>
+				<div class="more"><a href="#">more</a></div>
+			</div>
+			</div>
+		</div><!--our-news-->
+		<div class="feedback">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4"><h2>Thank you!</h2></div>
+				</div>
+				<div class="row">
+					<form role="form">
+						<div class="form-group col-md-4 col-md-offset-4">
+						<input type="text" class="form-control" placeholder="name">
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="e-mail">
+							<input type="text" class="form-control" placeholder="message">
+						<div class="send"><a type="submit" href="#">send</a></div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div><!--feedback-->
+		<div class="contact-us">
+			<div class="container">
+				<div class="row" id="contact-us"><h2>Contact us</h2><hr class="separatopr"></div>
+				<div class="row bye-text">
+					<div class="col-md-8 col-md-offset-2">
+						<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias culpa hic illo, at quod soluta nemo veritatis maiores! Quia delectus rerum eos facere commodi est dolores ab, perspiciatis accusantium.</i></p>
+					</div>
+				</div>
+				<div class="row contact-info">
+					<div class="col-md-4 mail"><address>hi@sndsgn.ca</address></div>
+						<div class="col-md-4 adrs"><address>Ukraine, Kiev, Khreshatik str.</address></div>
+						<div class="col-md-4 tell"><address>+38 066 475 30 22</address></div>
+				</div>
+			</div>
+		</div><!--contact us -->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-md-offset-5">
+						<h3>SNDSGN</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4 link">
+						<ul>
+							<li> <a href=""></a> </li>
+							<li><a href=""></a> </li>
+							<li><a href=""></a> </li>
+							<li><a href=""></a> </li>
+							<li><a href=""></a> </li>
+							<li><a href=""></a> </li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<p><i>© SNDSGN Wordpress Theme</i></p>
+					</div>
+				</div>
+			</div>
+		</div><!--footer-->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+				<!-- Modules -->
+		<script src="js/app.js"></script>
+
+		<!-- Controllers -->
+		<script src="js/controllers/TextController.js"></script>
+		<script src="js/controllers/nav-bar.js"></script>
 	</body>
 </html>
