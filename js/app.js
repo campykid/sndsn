@@ -1,68 +1,71 @@
-(function  () {
+var app = angular.module("myApp", []);
+
+
+// (function  () {
 	
-	var app = {
+// 	var app = {
 		
-		initialize : function  () {
-			this.workTest();
-			this.menuSlide();
-		},
+// 		initialize : function  () {
+// 			this.workTest();
+// 			this.menuSlide();
+// 		},
 		
-		workTest : function  () {
-			console.log('app was started');
-		},
+// 		workTest : function  () {
+// 			console.log('app was started');
+// 		},
 
-		menuSlide : function () {
-			var button = $('.menu');
-			var closeButton = $('.glyphicon-remove');
-			var header = $('.header');
-			var navmenu = $('.nav-bar');
-			var open = false;
+// 		menuSlide : function () {
+// 			var button = $('.menu');
+// 			var closeButton = $('.glyphicon-remove');
+// 			var header = $('.header');
+// 			var navmenu = $('.nav-bar');
+// 			var open = false;
 			
-			button.click(function(){
-				animate(open);
-			});
+// 			button.click(function(){
+// 				animate(open);
+// 			});
 			
-			closeButton.click(function(){
-				animate(true);
-			});
+// 			closeButton.click(function(){
+// 				animate(true);
+// 			});
 
-			var animate = function(bool) {
+// 			var animate = function(bool) {
 				
-				 if (bool == false) {
-					header.animate({
-						left : "285px"
-					}, 200);
+// 				 if (bool == false) {
+// 					header.animate({
+// 						left : "285px"
+// 					}, 200);
 
-					navmenu.animate({
-					left : "0px"
-					}, 200)
+// 					navmenu.animate({
+// 					left : "0px"
+// 					}, 200)
 
-					open = true;
-				} else {
-					header.animate({
-					left : "0px"
-					}, 200);
+// 					open = true;
+// 				} else {
+// 					header.animate({
+// 					left : "0px"
+// 					}, 200);
 
-					navmenu.animate({
-					left : "-285px"
-					}, 200)
+// 					navmenu.animate({
+// 					left : "-285px"
+// 					}, 200)
 
-					open = false;
-				}
-			}
-			
-				
-			
-
-				
-			
-			
+// 					open = false;
+// 				}
+// 			}
 			
 				
 			
-		}
-	}
 
-	$(document).ready(app.initialize());
+				
+			
+			
+			
+				
+			
+// 		}
+// 	}
 
-}());
+// 	$(document).ready(app.initialize());
+
+// }());

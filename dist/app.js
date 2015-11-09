@@ -1,1 +1,1 @@
-!function(){var n={initialize:function(){this.workTest(),this.menuSlide()},workTest:function(){console.log("app was started")},menuSlide:function(){var n=$(".menu"),i=$(".glyphicon-remove"),e=$(".header"),t=$(".nav-bar"),a=!1;n.click(function(){o(a)}),i.click(function(){o(!0)});var o=function(n){0==n?(e.animate({left:"285px"},200),t.animate({left:"0px"},200),a=!0):(e.animate({left:"0px"},200),t.animate({left:"-285px"},200),a=!1)}}};$(document).ready(n.initialize())}();
+var app=angular.module("myApp",[]);
