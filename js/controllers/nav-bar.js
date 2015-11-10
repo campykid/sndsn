@@ -1,9 +1,7 @@
 app.controller('nav-bar', ['$scope', function($scope) {
 
-	$scope.navBarState = 'closed';
-
 	$scope.toggleNavBar = function(){
-		if ($scope.navBarState === 'closed') {
+		if (!$scope.navBarState) {
 			$('.header').animate({
 				left : "285px"
 			}, 200);
@@ -11,7 +9,7 @@ app.controller('nav-bar', ['$scope', function($scope) {
 				left : "0px"
 			}, 200)
 			// Set flag.
-			$scope.navBarState = 'opened'
+			$scope.navBarState = true
 		} else {
 			$('.header').animate({
 				left : "0"
@@ -20,7 +18,17 @@ app.controller('nav-bar', ['$scope', function($scope) {
 				left : "-285px"
 			}, 200)
 			// Set flag.
-			$scope.navBarState = 'closed';
+			$scope.navBarState = false;
 		};
+	};
+
+	$scope.items = {
+		about: 'ABOUT US',
+		ourWorks: 'OUR WORKS',
+		whyChoseUs: 'WHY CHOOSE US',
+		ourTeam: 'OUR TEAM',
+		ourSkills: 'OUR SKILLS',
+		ourNews: 'OUR NEWS',
+		contactUs: 'CONTACT US'
 	}
 }]);

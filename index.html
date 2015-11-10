@@ -20,18 +20,9 @@
 		<script src="node_modules/angular/angular.js"></script>
 	</head>
 	<body ng-controller="TextController">
-		<div class="nav-bar" ng-controller="nav-bar">
-			<ul>
-				<li class="nav-bar__remove-button"><div class="glyphicon glyphicon-remove btn-lg"></div></li>
-				<li class="nav-bar__item"><a class='nav-bar__link' href="#about">ABOUT US</a></li>
-				<li class="nav-bar__item"><a class='nav-bar__link' href="#our-works">OUR WORKS</a></li>
-				<li class="nav-bar__item"><a class='nav-bar__link' href="#why-chose-us">WHY CHOOSE US</a></li>
-				<li class="nav-bar__item"><a class='nav-bar__link' href="#our-team">OUR TEAM</a></li>
-				<li class="nav-bar__item"><a class='nav-bar__link' href="#our-skills">OUR SKILLS</a></li>
-				<li class="nav-bar__item"><a class='nav-bar__link' href="#our-news">OUR NEWS</a></li>
-				<li class="nav-bar__item"><a class='nav-bar__link' href="#contact-us">CONTACT US</a></li>
-			</ul>
-		</div>
+
+		<nav-bar></nav-bar>
+
 		<div class="header">
 		<div class="header__nav-bar-panel" ng-controller="nav-bar" ng-click='toggleNavBar()'><h3 class="header__nav-bar-title">SNDSGN</h3></div>
 		<div class="container">
@@ -407,5 +398,6 @@
 		<!-- Controllers -->
 		<script src="js/controllers/TextController.js"></script>
 		<script src="js/controllers/nav-bar.js"></script>
+		<script src="js/directives/navBar.js"></script>
 	</body>
 </html>
